@@ -1,0 +1,26 @@
+
+	Criar uma pasta específica para o desafio e acre o git bash nela (here);
+
+	Comandos
+
+-git clone + endereço do repositório no GitHub = Clona a pasta do GitHub (git bash Here numa pasta no seu pc);
+
+git status = ver o que acontece, se tá tudo ok, se alguém não tá na nuvem...git
+
+-cd + nome da pasta = entra na pasta;
+
+
+Caminho inverso ao de trazer os arquivos do GitHub (Levar do pc pra nuvem):
+
+Após modificar algo no repósitório local:
+
+- git status =  mostra aas novas modificações;
+
+- git add . = adiciona o o arquivo modificado no controle de versão LOCAL.
+
+- git -A = adiciona o o arquivo modificado no controle de versão LOCAL.
+em qlqr pasta.
+
+- git commit -m ( o -m permite adicionar um comentário ao commit) = prepara a modificação para ser enviada para a nuvem.
+
+- git push origin main = envia os arquivos do commit para a nuvem (meu gitHub - f5 lá no gitHub par aver as atualizações).
